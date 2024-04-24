@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BBDU" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Red</item>
+        <item name="colorPrimaryVariant">@color/Red</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Indigo</item>
+        <item name="colorSecondaryVariant">@color/Indigo</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/Indigo</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.MainActivity" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Red</item>
+        <item name="colorPrimaryVariant">@color/Red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Indigo</item>
+        <item name="colorSecondaryVariant">@color/Indigo</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/Indigo</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

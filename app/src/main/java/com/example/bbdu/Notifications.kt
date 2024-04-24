@@ -4,15 +4,14 @@ import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.Uri
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.webkit.WebChromeClient
-import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.annotation.RequiresApi
+import androidx.appcompat.app.AppCompatActivity
 
 class Notifications : AppCompatActivity() {
     private lateinit var webView: WebView
@@ -23,21 +22,20 @@ class Notifications : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
 
-        // Find WebView and ProgressBar from the layout
+
         webView = findViewById(R.id.webView)
         webView.settings.builtInZoomControls = true;
         webView.settings.displayZoomControls = false;
         webView.settings.setSupportZoom(true);
         progressBar = findViewById(R.id.progressBarPyq)
 
-        // Enable JavaScript (if required)
         webView.settings.javaScriptEnabled = true
 
-        // Load webpage URL
+
         val url = "https://bbdu.ac.in/notices/"
         webView.loadUrl(url)
 
-        // Set a WebViewClient to handle page navigation within the WebView
+
         webView.webViewClient = object : WebViewClient() {
             @Deprecated("Deprecated in Java")
             override fun shouldOverrideUrlLoading(view: WebView?, url: String?): Boolean {
@@ -53,7 +51,6 @@ class Notifications : AppCompatActivity() {
             }
         }
 
-        // Set a WebChromeClient to handle progress changes
         webView.webChromeClient = object : WebChromeClient() {
             override fun onProgressChanged(view: WebView?, newProgress: Int) {
                 super.onProgressChanged(view, newProgress)
@@ -76,8 +73,14 @@ class Notifications : AppCompatActivity() {
             startActivity(intent)
         } catch (e: ActivityNotFoundException) {
             // Handle exception if no PDF viewer app is installed
-            Toast.makeText(this, "No PDF viewer installed,Install one from PlayStore", Toast.LENGTH_SHORT).show()
-        }}
+            Toast.makeText(
+                this,
+                "No PDF viewer installed,Install one from PlayStore",
+                Toast.LENGTH_SHORT
+            ).show()
+        }
+    }
+
     @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         // Check if WebView can navigate back
@@ -87,5 +90,6 @@ class Notifications : AppCompatActivity() {
             super.onBackPressed()
         }
 
-    }}
+    }
+}
 

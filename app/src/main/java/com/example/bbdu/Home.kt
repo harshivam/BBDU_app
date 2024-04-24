@@ -37,13 +37,13 @@ class Home : Fragment() {
         }
         binding.OfficialWebLayout.setOnClickListener {
             val url = "https://bbdu.ac.in"
-            webOpener(url,view)
+            webOpener(url, view)
         }
 
         binding.resultLayout.setOnClickListener {
             val url = "https://bbdu.ac.in/result/"
 
-            webOpener(url,view)
+            webOpener(url, view)
         }
 
         binding.previousYearLayout.setOnClickListener {

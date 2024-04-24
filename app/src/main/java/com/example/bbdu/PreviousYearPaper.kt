@@ -4,15 +4,14 @@ import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.Uri
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.webkit.ValueCallback
 import android.webkit.WebChromeClient
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.annotation.RequiresApi
+import androidx.appcompat.app.AppCompatActivity
 
 class PreviousYearPaper : AppCompatActivity() {
 
@@ -24,18 +23,14 @@ class PreviousYearPaper : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_previous_year_paper)
 
-        // Find WebView and ProgressBar from the layout
         webView = findViewById(R.id.webView)
         progressBar = findViewById(R.id.progressBarPyq)
 
-        // Enable JavaScript (if required)
         webView.settings.javaScriptEnabled = true
 
-        // Load webpage URL
         val url = "https://bbdu.ac.in/question-paper-even-sem-21-22/"
         webView.loadUrl(url)
 
-        // Set a WebViewClient to handle page navigation within the WebView
         webView.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(view: WebView?, url: String?): Boolean {
                 if (url?.endsWith(".pdf") == true) {
@@ -73,7 +68,11 @@ class PreviousYearPaper : AppCompatActivity() {
             startActivity(intent)
         } catch (e: ActivityNotFoundException) {
             // Handle exception if no PDF viewer app is installed
-            Toast.makeText(this, "No PDF viewer installed,Install one from PlayStore", Toast.LENGTH_SHORT).show()
+            Toast.makeText(
+                this,
+                "No PDF viewer installed,Install one from PlayStore",
+                Toast.LENGTH_SHORT
+            ).show()
         }
     }
 }

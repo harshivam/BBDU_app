@@ -1,5 +1,5 @@
 
-# BBDU 
+# BBDU (College Companion)
 An App that makes your college experience better.
 
 ## Description

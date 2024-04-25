@@ -18,7 +18,8 @@ Installation of BBDU app is very simple. You have to follow few steps:
 
 ## Usage/Examples
 
-The usage of app is very easy. 
+The usage of app is very easy.
+    ![](https://github.com/harshivam/BBDU_app/blob/master/Files/image%20(2).png?raw=true)
 
 * The button which redirect you to home page of BBDU website.
 

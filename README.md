@@ -6,9 +6,6 @@ An App that makes your college experience better.
 
 Our BBDU app is your ultimate tool for accessing and utilizing campus resources effortlessly. Whether you're a new student navigating campus for the first time or a seasoned student seeking specific notice, viewing results, and future updates. Our app streamlines the process of discovering and utilizing college resources.
 
-
-![image](https://github.com/harshivam/BBDU_app/assets/113045030/82ab0742-c715-47d4-aa2b-8bd05e6c34f0)
-
 ## Installation
 
 Installation of BBDU app is very simple. You have to follow few steps:
@@ -18,15 +15,24 @@ Installation of BBDU app is very simple. You have to follow few steps:
     3. You just need to give the permission to install the app from unknown resource.
     4. Your app is ready to use.
     
+
 ## Usage/Examples
 
 The usage of app is very easy. 
 
 * The button which redirect you to home page of BBDU website.
 
+    ![Home](https://github.com/harshivam/BBDU_app/blob/master/Files/home.jpg?raw=true)
+
 * There is button which redirects you to the Previous Year paper's of Semester exam which helps you to prepare easily.
 
+
+    ![PYQs](https://github.com/harshivam/BBDU_app/blob/master/Files/pyqs.jpg?raw=true)
+
+
 * There is a Student Dashboard which helps you to track attendance, examination form submission, viewing results, academic calender and many more.
+
+    ![Dashboard](https://github.com/harshivam/BBDU_app/blob/master/Files/dashboard.jpg?raw=true)
 
 
 ## Contributing

@@ -18,9 +18,6 @@ Installation of BBDU app is very simple. You have to follow few steps:
 
 ## Usage/Examples
 
-
-## Usage/Examples
-
 The usage of app is very easy.
 
 ![](https://github.com/harshivam/BBDU_app/blob/master/Files/image%20(3).png?raw=true)
@@ -66,6 +63,7 @@ Contributions are always welcome!
 * **[Logos](https://www.flaticon.com/)**
 * **[Animations File](https://lottiefiles.com)**
 * **[UI Design](https://app.haikei.app)**
+
 ## Feedback
 
 If you have any feedback, please reach out to us at **[Harsh Kirti Singh](harshivam71011@gmail.com)** and **[Ayush Singh](ayushsingh1610@outlook.com)**

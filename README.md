@@ -7,6 +7,7 @@ An App that makes your college experience better.
 Our BBDU app is your ultimate tool for accessing and utilizing campus resources effortlessly. Whether you're a new student navigating campus for the first time or a seasoned student seeking specific notice, viewing results, and future updates. Our app streamlines the process of discovering and utilizing college resources.
 
 
+![image](https://github.com/harshivam/BBDU_app/assets/113045030/82ab0742-c715-47d4-aa2b-8bd05e6c34f0)
 
 ## Installation
 

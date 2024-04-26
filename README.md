@@ -48,6 +48,7 @@ Contributions are always welcome!
 * After completing the project press `sync fork` to show the changes.
 * After that click the green `Update branch` button.
 
+KINDLY DON'T UPDATE USELESS README
 
 ## Authors
 
